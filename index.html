@@ -41,13 +41,13 @@
 
         div::-webkit-scrollbar {
             width: 6px;
-            background-color: #F5F5F5;
+            background-color : transparent;
         }
 
 
         div::-webkit-scrollbar-track {
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-            background-color: #F5F5F5;
+            -webkit-box-shadow: inset 0 0 6px #5DAAE0;
+            background-color: transparent;
         }
 
         div {
@@ -62,12 +62,14 @@
         }
         html 
         {
-            font-size: calc(0.75vh + 0.75vw)
+            font-size: calc(0.75vh + 0.75vw);
+            background-image: radial-gradient(#58687E, #39495E);
+
         }
        
 
         div::-webkit-scrollbar-thumb {
-            background-color: #000000;
+            background-color: #5DAAE0;
         }
 
 
@@ -76,7 +78,7 @@
         } */
 
         body {  
-            background-image: radial-gradient(#58687E, #39495E);;
+            /* background-image: radial-gradient(#58687E, #39495E);; */
             font-family: "Roboto";
             font-size: "50%";
             line-height: "1em";
