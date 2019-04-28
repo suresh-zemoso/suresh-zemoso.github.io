@@ -1,1 +1,0 @@
-# shrutisinha.github.io
